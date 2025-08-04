@@ -12,7 +12,7 @@ function TicketArea({ ticket }: Props) {
 
   const position = transform
     ? {
-        transform: "translate(${transform.x}px, ${transform.y}px)",
+        transform: `translate(${transform.x}px, ${transform.y}px)`,
       }
     : undefined;
   return (
